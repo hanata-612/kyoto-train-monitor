@@ -1,0 +1,38 @@
+name: kyoto-train-monitor
+
+on:
+  schedule:
+    # 每10分钟（GitHub 对 schedule 有几分钟级别的延迟，属正常）
+    - cron: "*/10 * * * *"
+  workflow_dispatch: {}   # 手动触发入口，部署后测试用
+
+permissions:
+  contents: write         # 允许把 state.json 提交回仓库
+
+concurrency:
+  group: train-monitor
+  cancel-in-progress: false
+
+jobs:
+  monitor:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Run monitor
+        env:
+          NTFY_TOPIC: ${{ secrets.NTFY_TOPIC }}
+          NOTIFY_EMAIL: ${{ secrets.NOTIFY_EMAIL }}
+        run: python3 monitor/kyoto_train_monitor.py
+
+      - name: Commit state
+        run: |
+          git config user.name "monitor-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add monitor/state.json
+          if ! git diff --cached --quiet; then
+            git commit -m "state update [skip ci]"
+            git pull --rebase origin ${GITHUB_REF_NAME} || true
+            git push
+          fi
