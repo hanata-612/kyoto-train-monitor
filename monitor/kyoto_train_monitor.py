@@ -40,6 +40,7 @@ from pathlib import Path
 
 JST = timezone(timedelta(hours=9))
 STATE_FILE = Path(__file__).parent / "state.json"
+ALERTS_FILE = Path(__file__).parent / "alerts.jsonl"  # 警报历史留档（Phase 3 分析用）
 NTFY_URL = "https://ntfy.sh"
 HTTP_TIMEOUT = 20
 USER_AGENT = "KyotoTrainMonitor/1.0 (personal use; polls every 10min)"
@@ -71,6 +72,8 @@ PAGE_WATCHES = [
         # 页面固定说明文里含「遅れ」等词，必须先剔除再扫描
         "boilerplate": [
             "20分以上の遅れが発生した、もしくは見込まれる場合に情報を提供",
+            # App宣传语，含「運転見合わせ」——v1 误报的元凶 (2026-07-19 修复)
+            "遅れや運転見合わせなどの情報をプッシュ通知",
             "遅延証明書",
         ],
         "normal_markers": ["平常通り", "平常どおり", "平常運転"],
@@ -89,10 +92,17 @@ PAGE_WATCHES = [
     {
         "id": "kintetsu",
         "company": "近鉄",
-        "url": "https://www.kintetsu.co.jp/unkou/unkou.html",
-        "boilerplate": ["遅延証明書"],
+        # v1 的 co.jp 域名是 404，正确域名是 kintetsu.jp (2026-07-19 修复)
+        "url": "https://www.kintetsu.jp/unkou/unkou.html",
+        "boilerplate": [
+            # 固定说明文，含「見合わせ」「遅れ」——先剔除再扫描
+            "遅延・運行見合わせ情報をご確認いただけます",
+            "5分以上の遅れが生じている場合",
+            "15分以上の遅れがない場合",
+            "遅延証明書",
+        ],
         "normal_markers": ["支障はございません", "平常通り", "平常どおり", "平常運転"],
-        "alert_words": ["運転見合わせ", "運転を見合わせ", "運休", "遅れが発生", "遅延が発生"],
+        "alert_words": ["運転見合わせ", "運転を見合わせ", "運行見合わせ", "運休", "遅れが発生", "遅延が発生"],
         "stations_hint": "近鉄京都駅・丹波橋",
     },
 ]
@@ -138,6 +148,22 @@ def save_state(state: dict) -> None:
         json.dumps(state, ensure_ascii=False, indent=1, sort_keys=True),
         encoding="utf-8",
     )
+
+
+def record_event(event_type: str, key: str, inc: dict, now: datetime) -> None:
+    """把状态变化事件追加写入 alerts.jsonl（无论是否处于静默时段都留档）。
+    这是 Phase 3「电车异常×收入」分析的原材料。"""
+    line = json.dumps({
+        "ts": now.isoformat(),
+        "type": event_type,          # new / change / recover
+        "key": key,
+        "company": inc.get("company", ""),
+        "line": inc.get("line", ""),
+        "status": inc.get("status", ""),
+        "transfer": bool(inc.get("transfer")),
+    }, ensure_ascii=False)
+    with open(ALERTS_FILE, "a", encoding="utf-8") as f:
+        f.write(line + "\n")
 
 
 def in_quiet_hours(now: datetime) -> bool:
@@ -282,12 +308,14 @@ def run() -> int:
         prev = previous.get(key)
         if prev is None:
             log(f'新异常: {key} {inc["status"]}')
+            record_event("new", key, inc, now)
             if not quiet:
                 title, message, priority = build_alert_message(inc)
                 notify(title, message, priority, with_email=True)
         elif (prev.get("status"), prev.get("transfer")) != (inc["status"], inc["transfer"]):
             # 状态升级/变化（例: 遅延→運転見合わせ、振替輸送开始）
             log(f'状态变化: {key} {prev.get("status")} → {inc["status"]}')
+            record_event("change", key, inc, now)
             if not quiet:
                 title, message, priority = build_alert_message(inc)
                 title = "🔄 " + title.split(" ", 1)[1]  # 用🔄替换原图标
@@ -297,6 +325,7 @@ def run() -> int:
     for key, prev in previous.items():
         if key not in current:
             log(f"恢复: {key}")
+            record_event("recover", key, prev, now)
             if not quiet:
                 notify(
                     f'✅ {prev.get("company","")} {prev.get("line","")} 恢复正常',
