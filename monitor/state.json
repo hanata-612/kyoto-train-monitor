@@ -1,0 +1,24 @@
+{
+ "active": {
+  "hankyu:page": {
+   "cause": "",
+   "company": "阪急電鉄",
+   "hint": "桂・烏丸・京都河原町",
+   "line": "運行情報",
+   "status": "運転見合わせ",
+   "transfer": false
+  }
+ },
+ "checked_at": "2026-07-19T20:07:27.730061+09:00",
+ "failure_alerted": {
+  "hankyu": false,
+  "jrwest": false,
+  "keihan": false
+ },
+ "failures": {
+  "hankyu": 0,
+  "jrwest": 0,
+  "keihan": 0,
+  "kintetsu": 1
+ }
+}
