@@ -9,7 +9,7 @@
    "transfer": false
   }
  },
- "checked_at": "2026-07-20T05:33:31.247145+09:00",
+ "checked_at": "2026-07-20T06:29:46.422260+09:00",
  "failure_alerted": {
   "hankyu": false,
   "jrwest": false,
@@ -20,6 +20,6 @@
   "hankyu": 0,
   "jrwest": 0,
   "keihan": 0,
-  "kintetsu": 10
+  "kintetsu": 11
  }
 }
