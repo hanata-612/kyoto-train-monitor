@@ -1,15 +1,6 @@
 {
- "active": {
-  "jrwest:nara": {
-   "cause": "沿線の確認",
-   "company": "JR西日本",
-   "hint": "京都駅・山科駅",
-   "line": "奈良線",
-   "status": "遅延",
-   "transfer": true
-  }
- },
- "checked_at": "2026-07-20T19:33:36.868528+09:00",
+ "active": {},
+ "checked_at": "2026-07-20T21:36:38.665003+09:00",
  "failure_alerted": {
   "hankyu": false,
   "jrwest": false,

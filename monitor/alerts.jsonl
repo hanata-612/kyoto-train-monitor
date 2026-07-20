@@ -1,2 +1,3 @@
 {"ts": "2026-07-20T07:21:01.465269+09:00", "type": "recover", "key": "hankyu:page", "company": "阪急電鉄", "line": "運行情報", "status": "運転見合わせ", "transfer": false}
 {"ts": "2026-07-20T19:33:36.868528+09:00", "type": "new", "key": "jrwest:nara", "company": "JR西日本", "line": "奈良線", "status": "遅延", "transfer": true}
+{"ts": "2026-07-20T21:36:38.665003+09:00", "type": "recover", "key": "jrwest:nara", "company": "JR西日本", "line": "奈良線", "status": "遅延", "transfer": true}
