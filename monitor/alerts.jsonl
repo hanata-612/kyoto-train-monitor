@@ -3,3 +3,5 @@
 {"ts": "2026-07-20T21:36:38.665003+09:00", "type": "recover", "key": "jrwest:nara", "company": "JR西日本", "line": "奈良線", "status": "遅延", "transfer": true}
 {"ts": "2026-07-20T23:53:07.653915+09:00", "type": "new", "key": "jrwest:sanin1", "company": "JR西日本", "line": "山陰線(園部-福知山)", "status": "一部列車遅延", "transfer": false}
 {"ts": "2026-07-21T01:21:16.721624+09:00", "type": "recover", "key": "jrwest:sanin1", "company": "JR西日本", "line": "山陰線(園部-福知山)", "status": "一部列車遅延", "transfer": false}
+{"ts": "2026-07-22T00:00:40.208667+09:00", "type": "new", "key": "jrwest:hokurikubiwako", "company": "JR西日本", "line": "北陸線・琵琶湖線", "status": "順次運転見合わせ", "transfer": false}
+{"ts": "2026-07-22T00:00:40.208667+09:00", "type": "new", "key": "jrwest:kyoto", "company": "JR西日本", "line": "JR京都線", "status": "順次運転見合わせ", "transfer": false}
