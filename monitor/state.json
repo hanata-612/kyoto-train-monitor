@@ -5,7 +5,7 @@
    "company": "JR西日本",
    "hint": "京都駅・山科駅",
    "line": "北陸線・琵琶湖線",
-   "status": "順次運転見合わせ",
+   "status": "遅延",
    "transfer": false
   },
   "jrwest:kyoto": {
@@ -13,11 +13,11 @@
    "company": "JR西日本",
    "hint": "京都駅・山科駅",
    "line": "JR京都線",
-   "status": "順次運転見合わせ",
+   "status": "遅延",
    "transfer": false
   }
  },
- "checked_at": "2026-07-22T00:00:40.208667+09:00",
+ "checked_at": "2026-07-22T01:38:54.291917+09:00",
  "failure_alerted": {
   "hankyu": false,
   "jrwest": false,
