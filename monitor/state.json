@@ -1,15 +1,6 @@
 {
- "active": {
-  "jrwest:kyoto": {
-   "cause": "沿線火災",
-   "company": "JR西日本",
-   "hint": "京都駅・山科駅",
-   "line": "JR京都線",
-   "status": "遅延",
-   "transfer": false
-  }
- },
- "checked_at": "2026-07-22T16:14:21.558590+09:00",
+ "active": {},
+ "checked_at": "2026-07-22T18:40:44.812646+09:00",
  "failure_alerted": {
   "hankyu": false,
   "jrwest": false,
