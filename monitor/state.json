@@ -1,6 +1,15 @@
 {
- "active": {},
- "checked_at": "2026-07-24T21:54:19.664390+09:00",
+ "active": {
+  "jrwest:kusatsu": {
+   "cause": "接続待ち合わせ",
+   "company": "JR西日本",
+   "hint": "京都駅・山科駅",
+   "line": "草津線",
+   "status": "遅延",
+   "transfer": false
+  }
+ },
+ "checked_at": "2026-07-24T23:50:14.357935+09:00",
  "failure_alerted": {
   "hankyu": false,
   "jrwest": false,
