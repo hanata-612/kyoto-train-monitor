@@ -1,6 +1,15 @@
 {
- "active": {},
- "checked_at": "2026-07-25T18:05:19.375172+09:00",
+ "active": {
+  "jrwest:yamatoji": {
+   "cause": "お客様混雑",
+   "company": "JR西日本",
+   "hint": "京都駅・山科駅",
+   "line": "大和路線",
+   "status": "遅延",
+   "transfer": false
+  }
+ },
+ "checked_at": "2026-07-25T19:41:12.194491+09:00",
  "failure_alerted": {
   "hankyu": false,
   "jrwest": false,
