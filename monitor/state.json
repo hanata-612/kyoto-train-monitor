@@ -1,13 +1,5 @@
 {
  "active": {
-  "jrwest:sanin1": {
-   "cause": "動物と接触",
-   "company": "JR西日本",
-   "hint": "京都駅・山科駅",
-   "line": "山陰線(園部-福知山)",
-   "status": "一部列車遅延",
-   "transfer": false
-  },
   "jrwest:yamatoji": {
    "cause": "お客様混雑",
    "company": "JR西日本",
@@ -17,7 +9,7 @@
    "transfer": false
   }
  },
- "checked_at": "2026-07-25T20:50:22.171054+09:00",
+ "checked_at": "2026-07-25T22:13:02.902547+09:00",
  "failure_alerted": {
   "hankyu": false,
   "jrwest": false,
