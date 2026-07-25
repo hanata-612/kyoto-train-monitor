@@ -1,15 +1,15 @@
 {
  "active": {
-  "jrwest:yamatoji": {
-   "cause": "線路内人立ち入り",
+  "jrwest:kyoto": {
+   "cause": "踏切の確認",
    "company": "JR西日本",
    "hint": "京都駅・山科駅",
-   "line": "大和路線",
+   "line": "JR京都線",
    "status": "遅延",
    "transfer": false
   }
  },
- "checked_at": "2026-07-25T13:31:45.462341+09:00",
+ "checked_at": "2026-07-25T15:59:40.260126+09:00",
  "failure_alerted": {
   "hankyu": false,
   "jrwest": false,
