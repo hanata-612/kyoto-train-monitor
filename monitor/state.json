@@ -1,15 +1,6 @@
 {
- "active": {
-  "jrwest:sanin1": {
-   "cause": "大雨",
-   "company": "JR西日本",
-   "hint": "京都駅・山科駅",
-   "line": "山陰線(園部-福知山)",
-   "status": "一部列車遅延",
-   "transfer": false
-  }
- },
- "checked_at": "2026-07-27T10:15:38.822838+09:00",
+ "active": {},
+ "checked_at": "2026-07-27T13:54:57.771454+09:00",
  "failure_alerted": {
   "hankyu": false,
   "jrwest": false,
