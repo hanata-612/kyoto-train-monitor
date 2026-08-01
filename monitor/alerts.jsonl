@@ -94,3 +94,4 @@
 {"ts": "2026-07-31T21:19:42.090236+09:00", "type": "new", "key": "jrwest:kyoto", "company": "JR西日本", "line": "JR京都線", "status": "遅延", "transfer": false}
 {"ts": "2026-07-31T23:41:55.067157+09:00", "type": "recover", "key": "jrwest:kyoto", "company": "JR西日本", "line": "JR京都線", "status": "遅延", "transfer": false}
 {"ts": "2026-08-02T04:58:15.829727+09:00", "type": "new", "key": "jrwest:kyoto", "company": "JR西日本", "line": "JR京都線", "status": "一部列車運休", "transfer": false}
+{"ts": "2026-08-02T06:56:15.930796+09:00", "type": "recover", "key": "jrwest:kyoto", "company": "JR西日本", "line": "JR京都線", "status": "一部列車運休", "transfer": false}
