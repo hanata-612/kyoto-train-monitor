@@ -1,6 +1,15 @@
 {
- "active": {},
- "checked_at": "2026-08-02T03:42:59.815853+09:00",
+ "active": {
+  "jrwest:kyoto": {
+   "cause": "信号の確認",
+   "company": "JR西日本",
+   "hint": "京都駅・山科駅",
+   "line": "JR京都線",
+   "status": "一部列車運休",
+   "transfer": false
+  }
+ },
+ "checked_at": "2026-08-02T04:58:15.829727+09:00",
  "failure_alerted": {
   "hankyu": false,
   "jrwest": false,
