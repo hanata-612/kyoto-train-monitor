@@ -1,7 +1,7 @@
 {
  "active": {
   "jrwest:hokurikubiwako": {
-   "cause": "車両の確認",
+   "cause": "車両トラブル",
    "company": "JR西日本",
    "hint": "京都駅・山科駅",
    "line": "北陸線・琵琶湖線",
@@ -9,15 +9,15 @@
    "transfer": false
   },
   "jrwest:kyoto": {
-   "cause": "車両の確認",
+   "cause": "車両トラブル",
    "company": "JR西日本",
    "hint": "京都駅・山科駅",
    "line": "JR京都線",
    "status": "遅延",
-   "transfer": false
+   "transfer": true
   }
  },
- "checked_at": "2026-08-02T18:51:36.908925+09:00",
+ "checked_at": "2026-08-02T20:13:12.112486+09:00",
  "failure_alerted": {
   "hankyu": false,
   "jrwest": false,
