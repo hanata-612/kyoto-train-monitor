@@ -1,6 +1,15 @@
 {
- "active": {},
- "checked_at": "2026-08-02T14:37:55.424940+09:00",
+ "active": {
+  "jrwest:nara": {
+   "cause": "踏切内車立ち往生",
+   "company": "JR西日本",
+   "hint": "京都駅・山科駅",
+   "line": "奈良線",
+   "status": "遅延",
+   "transfer": false
+  }
+ },
+ "checked_at": "2026-08-02T16:51:46.741602+09:00",
  "failure_alerted": {
   "hankyu": false,
   "jrwest": false,
