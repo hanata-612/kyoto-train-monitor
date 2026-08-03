@@ -1,31 +1,6 @@
 {
- "active": {
-  "jrwest:kyoto": {
-   "cause": "架線の確認",
-   "company": "JR西日本",
-   "hint": "京都駅・山科駅",
-   "line": "JR京都線",
-   "status": "遅延",
-   "transfer": false
-  },
-  "jrwest:sagano": {
-   "cause": "大雨",
-   "company": "JR西日本",
-   "hint": "京都駅・山科駅",
-   "line": "嵯峨野線",
-   "status": "遅延",
-   "transfer": true
-  },
-  "jrwest:sanin1": {
-   "cause": "大雨",
-   "company": "JR西日本",
-   "hint": "京都駅・山科駅",
-   "line": "山陰線(園部-福知山)",
-   "status": "一部列車運休",
-   "transfer": false
-  }
- },
- "checked_at": "2026-08-03T23:04:41.974989+09:00",
+ "active": {},
+ "checked_at": "2026-08-04T01:36:19.040853+09:00",
  "failure_alerted": {
   "hankyu": false,
   "jrwest": false,
