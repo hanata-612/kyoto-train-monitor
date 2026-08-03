@@ -1,10 +1,10 @@
 {
  "active": {
-  "jrwest:kosei": {
-   "cause": "大雨",
+  "jrwest:kyoto": {
+   "cause": "架線の確認",
    "company": "JR西日本",
    "hint": "京都駅・山科駅",
-   "line": "湖西線",
+   "line": "JR京都線",
    "status": "遅延",
    "transfer": false
   },
@@ -16,16 +16,16 @@
    "status": "遅延",
    "transfer": true
   },
-  "jrwest:yamatoji": {
+  "jrwest:sanin1": {
    "cause": "大雨",
    "company": "JR西日本",
    "hint": "京都駅・山科駅",
-   "line": "大和路線",
-   "status": "遅延",
-   "transfer": true
+   "line": "山陰線(園部-福知山)",
+   "status": "一部列車運休",
+   "transfer": false
   }
  },
- "checked_at": "2026-08-03T20:47:36.716679+09:00",
+ "checked_at": "2026-08-03T23:04:41.974989+09:00",
  "failure_alerted": {
   "hankyu": false,
   "jrwest": false,
