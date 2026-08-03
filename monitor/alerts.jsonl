@@ -113,3 +113,6 @@
 {"ts": "2026-08-03T07:33:10.793957+09:00", "type": "new", "key": "jrwest:kyoto", "company": "JR西日本", "line": "JR京都線", "status": "遅延", "transfer": false}
 {"ts": "2026-08-03T13:49:38.589029+09:00", "type": "recover", "key": "jrwest:kyoto", "company": "JR西日本", "line": "JR京都線", "status": "遅延", "transfer": false}
 {"ts": "2026-08-03T17:15:41.236812+09:00", "type": "new", "key": "jrwest:yamatoji", "company": "JR西日本", "line": "大和路線", "status": "遅延", "transfer": false}
+{"ts": "2026-08-03T20:47:36.716679+09:00", "type": "new", "key": "jrwest:kosei", "company": "JR西日本", "line": "湖西線", "status": "遅延", "transfer": false}
+{"ts": "2026-08-03T20:47:36.716679+09:00", "type": "new", "key": "jrwest:sagano", "company": "JR西日本", "line": "嵯峨野線", "status": "遅延", "transfer": true}
+{"ts": "2026-08-03T20:47:36.716679+09:00", "type": "change", "key": "jrwest:yamatoji", "company": "JR西日本", "line": "大和路線", "status": "遅延", "transfer": true}
