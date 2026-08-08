@@ -1,6 +1,15 @@
 {
- "active": {},
- "checked_at": "2026-08-09T07:22:11.569472+09:00",
+ "active": {
+  "jrwest:hokurikubiwako": {
+   "cause": "動物と接触",
+   "company": "JR西日本",
+   "hint": "京都駅・山科駅",
+   "line": "北陸線・琵琶湖線",
+   "status": "遅延",
+   "transfer": false
+  }
+ },
+ "checked_at": "2026-08-09T07:56:00.945469+09:00",
  "failure_alerted": {
   "hankyu": false,
   "jrwest": false,
