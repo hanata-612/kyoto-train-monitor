@@ -1,15 +1,6 @@
 {
- "active": {
-  "jrwest:nara": {
-   "cause": "動物と接触",
-   "company": "JR西日本",
-   "hint": "京都駅・山科駅",
-   "line": "奈良線",
-   "status": "遅延",
-   "transfer": false
-  }
- },
- "checked_at": "2026-08-13T21:07:08.284210+09:00",
+ "active": {},
+ "checked_at": "2026-08-13T22:40:57.811016+09:00",
  "failure_alerted": {
   "hankyu": false,
   "jrwest": false,
