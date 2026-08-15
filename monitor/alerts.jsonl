@@ -189,3 +189,4 @@
 {"ts": "2026-08-15T11:17:51.996995+09:00", "type": "new", "key": "jrwest:yamatoji", "company": "JR西日本", "line": "大和路線", "status": "遅延", "transfer": false}
 {"ts": "2026-08-15T12:08:08.917830+09:00", "type": "recover", "key": "jrwest:yamatoji", "company": "JR西日本", "line": "大和路線", "status": "遅延", "transfer": false}
 {"ts": "2026-08-15T12:51:33.895497+09:00", "type": "new", "key": "jrwest:kosei", "company": "JR西日本", "line": "湖西線", "status": "遅延", "transfer": false}
+{"ts": "2026-08-15T13:54:59.603757+09:00", "type": "recover", "key": "jrwest:kusatsu", "company": "JR西日本", "line": "草津線", "status": "遅延", "transfer": false}
