@@ -5,11 +5,11 @@
    "company": "JR西日本",
    "hint": "京都駅・山科駅",
    "line": "草津線",
-   "status": "運転見合わせ",
+   "status": "遅延",
    "transfer": false
   }
  },
- "checked_at": "2026-08-15T08:55:42.069926+09:00",
+ "checked_at": "2026-08-15T10:00:21.344969+09:00",
  "failure_alerted": {
   "hankyu": false,
   "jrwest": false,
