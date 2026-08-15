@@ -192,3 +192,5 @@
 {"ts": "2026-08-15T13:54:59.603757+09:00", "type": "recover", "key": "jrwest:kusatsu", "company": "JR西日本", "line": "草津線", "status": "遅延", "transfer": false}
 {"ts": "2026-08-15T14:19:31.786989+09:00", "type": "recover", "key": "jrwest:kyoto", "company": "JR西日本", "line": "JR京都線", "status": "遅延", "transfer": false}
 {"ts": "2026-08-15T14:45:36.285659+09:00", "type": "new", "key": "jrwest:kyoto", "company": "JR西日本", "line": "JR京都線", "status": "遅延", "transfer": false}
+{"ts": "2026-08-15T15:01:43.838569+09:00", "type": "recover", "key": "jrwest:hokurikubiwako", "company": "JR西日本", "line": "北陸線・琵琶湖線", "status": "遅延", "transfer": false}
+{"ts": "2026-08-15T15:01:43.838569+09:00", "type": "recover", "key": "jrwest:kosei", "company": "JR西日本", "line": "湖西線", "status": "遅延", "transfer": false}
