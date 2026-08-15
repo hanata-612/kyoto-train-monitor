@@ -197,3 +197,4 @@
 {"ts": "2026-08-15T15:54:18.633685+09:00", "type": "recover", "key": "jrwest:kyoto", "company": "JR西日本", "line": "JR京都線", "status": "遅延", "transfer": false}
 {"ts": "2026-08-15T16:51:23.396170+09:00", "type": "new", "key": "jrwest:kyoto", "company": "JR西日本", "line": "JR京都線", "status": "遅延", "transfer": false}
 {"ts": "2026-08-15T17:58:23.294116+09:00", "type": "new", "key": "jrwest:hokurikubiwako", "company": "JR西日本", "line": "北陸線・琵琶湖線", "status": "遅延", "transfer": false}
+{"ts": "2026-08-15T18:20:35.067840+09:00", "type": "recover", "key": "jrwest:kyoto", "company": "JR西日本", "line": "JR京都線", "status": "遅延", "transfer": false}
