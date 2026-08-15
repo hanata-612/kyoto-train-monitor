@@ -8,6 +8,14 @@
    "status": "遅延",
    "transfer": false
   },
+  "jrwest:kosei": {
+   "cause": "お客様と接触",
+   "company": "JR西日本",
+   "hint": "京都駅・山科駅",
+   "line": "湖西線",
+   "status": "遅延",
+   "transfer": false
+  },
   "jrwest:kusatsu": {
    "cause": "大雨",
    "company": "JR西日本",
@@ -25,7 +33,7 @@
    "transfer": false
   }
  },
- "checked_at": "2026-08-15T12:08:08.917830+09:00",
+ "checked_at": "2026-08-15T12:51:33.895497+09:00",
  "failure_alerted": {
   "hankyu": false,
   "jrwest": false,
