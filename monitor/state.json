@@ -1,16 +1,18 @@
 {
  "active": {},
- "checked_at": "2026-08-19T22:04:57.337347+09:00",
+ "checked_at": "2026-08-19T22:40:55.998189+09:00",
  "failure_alerted": {
   "hankyu": false,
   "jrwest": false,
   "keihan": false,
-  "kintetsu": false
+  "kintetsu": false,
+  "kyotosubway": false
  },
  "failures": {
   "hankyu": 0,
   "jrwest": 0,
   "keihan": 0,
-  "kintetsu": 0
+  "kintetsu": 0,
+  "kyotosubway": 0
  }
 }
