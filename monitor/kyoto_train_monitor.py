@@ -238,6 +238,9 @@ def record_event(event_type: str, key: str, inc: dict, now: datetime) -> None:
         "line": inc.get("line", ""),
         "status": inc.get("status", ""),
         "transfer": bool(inc.get("transfer")),
+        # T-020(硬冻结解冻一小口, 司机8/21裁定): 事故原文留档——判定逻辑零改动,
+        # 纯数据流字段。.get 是铁律(state.json 外部持久化可能缺键)。显示级清洗+120截断。
+        "detail": re.sub(r"\s+", " ", str(inc.get("cause", ""))).strip()[:120],
     }, ensure_ascii=False)
     with open(ALERTS_FILE, "a", encoding="utf-8") as f:
         f.write(line + "\n")
@@ -458,9 +461,11 @@ def check_page(watch: dict, previous: dict = None) -> dict:
         word = _worst([w for _, w in unresolved]) if unresolved else matched[0]
         log(f'{watch["company"]}: 帰属不能な異常あり → 駅ヒントなしで通知。'
             f'{" / ".join(s for s, _ in unresolved)[:120]}')
+        # T-020: cause=状態語と同じ句(語句錯位防止——標題見合わせ・原文遅れの自己矛盾を出さない)
+        cause_sentence = next((s0 for s0, w0 in unresolved if w0 == word), "") if unresolved else ""
         incidents[f'{watch["id"]}:page'] = {
             "company": watch["company"], "line": "", "status": word,
-            "cause": "", "transfer": False, "hint": UNKNOWN_LINE_HINT,
+            "cause": cause_sentence.strip()[:120], "transfer": False, "hint": UNKNOWN_LINE_HINT,
         }
 
     if not assigned and previous:
@@ -549,7 +554,8 @@ def check_kyoto_subway() -> "Optional[dict]":
                 "company": "京都市交通局",
                 "line": ln,
                 "status": word,
-                "cause": "",
+                # T-020: 命中句原文を留档(構造点は句ループ内=同源同句で自洽。三態判定零接触)
+                "cause": sentence.strip()[:120],
                 "transfer": False,
                 "hint": SUBWAY_LINE_HINTS[ln],
             }
