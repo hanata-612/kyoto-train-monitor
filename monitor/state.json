@@ -7,17 +7,9 @@
    "line": "北陸線・琵琶湖線",
    "status": "遅延",
    "transfer": false
-  },
-  "jrwest:kyoto": {
-   "cause": "お客様と接触",
-   "company": "JR西日本",
-   "hint": "京都駅",
-   "line": "JR京都線",
-   "status": "遅延",
-   "transfer": false
   }
  },
- "checked_at": "2026-08-21T22:29:00.041821+09:00",
+ "checked_at": "2026-08-21T23:07:01.949080+09:00",
  "failure_alerted": {
   "hankyu": false,
   "jrwest": false,
