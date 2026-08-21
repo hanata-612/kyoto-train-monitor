@@ -1,15 +1,15 @@
 {
  "active": {
-  "jrwest:kyoto": {
+  "jrwest:hokurikubiwako": {
    "cause": "お客様救護",
    "company": "JR西日本",
-   "hint": "京都駅",
-   "line": "JR京都線",
+   "hint": "山科駅・京都駅",
+   "line": "北陸線・琵琶湖線",
    "status": "遅延",
    "transfer": false
   }
  },
- "checked_at": "2026-08-21T11:35:29.563493+09:00",
+ "checked_at": "2026-08-21T12:32:36.671269+09:00",
  "failure_alerted": {
   "hankyu": false,
   "jrwest": false,
