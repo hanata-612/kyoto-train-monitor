@@ -22,7 +22,7 @@
    "hint": "京都駅",
    "line": "JR京都線",
    "status": "遅延",
-   "transfer": true
+   "transfer": false
   },
   "jrwest:sanin1": {
    "cause": "線路トラブル",
@@ -33,7 +33,7 @@
    "transfer": false
   }
  },
- "checked_at": "2026-08-22T17:21:32.744474+09:00",
+ "checked_at": "2026-08-22T17:55:34.515632+09:00",
  "failure_alerted": {
   "hankyu": false,
   "jrwest": false,
