@@ -23,17 +23,9 @@
    "line": "JR京都線",
    "status": "遅延",
    "transfer": true
-  },
-  "jrwest:nara": {
-   "cause": "踏切の確認",
-   "company": "JR西日本",
-   "hint": "東福寺・稲荷・桃山",
-   "line": "奈良線",
-   "status": "遅延",
-   "transfer": false
   }
  },
- "checked_at": "2026-08-22T14:11:40.954948+09:00",
+ "checked_at": "2026-08-22T14:45:05.155494+09:00",
  "failure_alerted": {
   "hankyu": false,
   "jrwest": false,
