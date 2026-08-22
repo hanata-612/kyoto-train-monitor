@@ -23,9 +23,25 @@
    "line": "JR京都線",
    "status": "遅延",
    "transfer": true
+  },
+  "jrwest:nara": {
+   "cause": "踏切の確認",
+   "company": "JR西日本",
+   "hint": "東福寺・稲荷・桃山",
+   "line": "奈良線",
+   "status": "遅延",
+   "transfer": false
+  },
+  "jrwest:sanin1": {
+   "cause": "線路トラブル",
+   "company": "JR西日本",
+   "hint": "なし(市外中心・京都市内への影響は限定的)",
+   "line": "山陰線(園部-福知山)",
+   "status": "一部列車遅延",
+   "transfer": false
   }
  },
- "checked_at": "2026-08-22T11:41:28.273460+09:00",
+ "checked_at": "2026-08-22T12:27:18.624754+09:00",
  "failure_alerted": {
   "hankyu": false,
   "jrwest": false,
