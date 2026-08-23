@@ -246,3 +246,4 @@
 {"ts": "2026-08-23T01:16:55.650487+09:00", "type": "recover", "key": "jrwest:hokurikubiwako", "company": "JR西日本", "line": "北陸線・琵琶湖線", "status": "遅延", "transfer": false, "detail": "人と接触"}
 {"ts": "2026-08-23T01:16:55.650487+09:00", "type": "recover", "key": "jrwest:kyoto", "company": "JR西日本", "line": "JR京都線", "status": "遅延", "transfer": false, "detail": "人と接触"}
 {"ts": "2026-08-23T14:23:43.552829+09:00", "type": "new", "key": "jrwest:sanin1", "company": "JR西日本", "line": "山陰線(園部-福知山)", "status": "一部列車遅延", "transfer": false, "detail": "線路の確認"}
+{"ts": "2026-08-23T15:31:23.329932+09:00", "type": "recover", "key": "jrwest:sanin1", "company": "JR西日本", "line": "山陰線(園部-福知山)", "status": "一部列車遅延", "transfer": false, "detail": "線路の確認"}
