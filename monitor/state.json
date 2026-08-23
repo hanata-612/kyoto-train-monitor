@@ -8,14 +8,6 @@
    "status": "遅延",
    "transfer": false
   },
-  "jrwest:kyoto": {
-   "cause": "線路内人立ち入り",
-   "company": "JR西日本",
-   "hint": "京都駅",
-   "line": "JR京都線",
-   "status": "遅延",
-   "transfer": false
-  },
   "jrwest:yamatoji": {
    "cause": "線路内人立ち入り",
    "company": "JR西日本",
@@ -25,7 +17,7 @@
    "transfer": false
   }
  },
- "checked_at": "2026-08-24T01:00:30.494612+09:00",
+ "checked_at": "2026-08-24T01:37:45.126793+09:00",
  "failure_alerted": {
   "hankyu": false,
   "jrwest": false,
