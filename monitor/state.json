@@ -1,5 +1,13 @@
 {
  "active": {
+  "jrwest:hokurikubiwako": {
+   "cause": "線路内人立ち入り",
+   "company": "JR西日本",
+   "hint": "山科駅・京都駅",
+   "line": "北陸線・琵琶湖線",
+   "status": "遅延",
+   "transfer": false
+  },
   "jrwest:kyoto": {
    "cause": "線路内人立ち入り",
    "company": "JR西日本",
@@ -7,9 +15,17 @@
    "line": "JR京都線",
    "status": "遅延",
    "transfer": false
+  },
+  "jrwest:yamatoji": {
+   "cause": "線路内人立ち入り",
+   "company": "JR西日本",
+   "hint": "なし(市外中心・京都市内への影響は限定的)",
+   "line": "大和路線",
+   "status": "遅延",
+   "transfer": false
   }
  },
- "checked_at": "2026-08-23T23:04:10.069488+09:00",
+ "checked_at": "2026-08-23T23:35:01.897318+09:00",
  "failure_alerted": {
   "hankyu": false,
   "jrwest": false,
