@@ -1,6 +1,15 @@
 {
- "active": {},
- "checked_at": "2026-08-23T22:11:24.066556+09:00",
+ "active": {
+  "jrwest:kyoto": {
+   "cause": "線路内人立ち入り",
+   "company": "JR西日本",
+   "hint": "京都駅",
+   "line": "JR京都線",
+   "status": "遅延",
+   "transfer": false
+  }
+ },
+ "checked_at": "2026-08-23T22:47:21.631221+09:00",
  "failure_alerted": {
   "hankyu": false,
   "jrwest": false,
