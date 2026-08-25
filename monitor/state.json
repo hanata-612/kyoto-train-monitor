@@ -1,6 +1,15 @@
 {
- "active": {},
- "checked_at": "2026-08-25T09:01:52.216877+09:00",
+ "active": {
+  "jrwest:kyoto": {
+   "cause": "踏切の確認",
+   "company": "JR西日本",
+   "hint": "京都駅",
+   "line": "JR京都線",
+   "status": "遅延",
+   "transfer": false
+  }
+ },
+ "checked_at": "2026-08-25T10:47:54.730709+09:00",
  "failure_alerted": {
   "hankyu": false,
   "jrwest": false,
