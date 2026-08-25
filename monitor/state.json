@@ -1,15 +1,6 @@
 {
- "active": {
-  "jrwest:kusatsu": {
-   "cause": "接続待ち合わせ",
-   "company": "JR西日本",
-   "hint": "なし(市外中心・京都市内への影響は限定的)",
-   "line": "草津線",
-   "status": "遅延",
-   "transfer": false
-  }
- },
- "checked_at": "2026-08-25T23:28:12.841348+09:00",
+ "active": {},
+ "checked_at": "2026-08-26T00:22:22.205897+09:00",
  "failure_alerted": {
   "hankyu": false,
   "jrwest": false,
