@@ -1,15 +1,15 @@
 {
  "active": {
-  "jrwest:kyoto": {
+  "jrwest:hokurikubiwako": {
    "cause": "踏切の確認",
    "company": "JR西日本",
-   "hint": "京都駅",
-   "line": "JR京都線",
+   "hint": "山科駅・京都駅",
+   "line": "北陸線・琵琶湖線",
    "status": "遅延",
    "transfer": false
   }
  },
- "checked_at": "2026-08-25T10:47:54.730709+09:00",
+ "checked_at": "2026-08-25T11:46:06.601057+09:00",
  "failure_alerted": {
   "hankyu": false,
   "jrwest": false,
