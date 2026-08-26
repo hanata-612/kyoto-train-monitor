@@ -1,6 +1,23 @@
 {
- "active": {},
- "checked_at": "2026-08-26T12:32:20.153573+09:00",
+ "active": {
+  "jrwest:kosei": {
+   "cause": "お客様と接触",
+   "company": "JR西日本",
+   "hint": "山科駅・京都駅",
+   "line": "湖西線",
+   "status": "運転見合わせ",
+   "transfer": true
+  },
+  "jrwest:sanin1": {
+   "cause": "線路の確認",
+   "company": "JR西日本",
+   "hint": "なし(市外中心・京都市内への影響は限定的)",
+   "line": "山陰線(園部-福知山)",
+   "status": "一部列車遅延",
+   "transfer": false
+  }
+ },
+ "checked_at": "2026-08-26T13:20:13.258801+09:00",
  "failure_alerted": {
   "hankyu": false,
   "jrwest": false,
