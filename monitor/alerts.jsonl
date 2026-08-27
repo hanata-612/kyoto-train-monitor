@@ -286,3 +286,9 @@
 {"ts": "2026-08-27T01:00:15.771915+09:00", "type": "recover", "key": "jrwest:sanin1", "company": "JR西日本", "line": "山陰線(園部-福知山)", "status": "一部列車遅延", "transfer": false, "detail": "接続待ち合わせ"}
 {"ts": "2026-08-27T20:09:03.653397+09:00", "type": "new", "key": "jrwest:hokurikubiwako", "company": "JR西日本", "line": "北陸線・琵琶湖線", "status": "遅延", "transfer": false, "detail": "架線の確認"}
 {"ts": "2026-08-27T20:09:03.653397+09:00", "type": "new", "key": "jrwest:kyoto", "company": "JR西日本", "line": "JR京都線", "status": "遅延", "transfer": false, "detail": "架線の確認"}
+{"ts": "2026-08-28T06:00:33.875098+09:00", "type": "change", "key": "jrwest:hokurikubiwako", "company": "JR西日本", "line": "北陸線・琵琶湖線", "status": "一部列車運休", "transfer": false, "detail": "大雨"}
+{"ts": "2026-08-28T06:00:33.875098+09:00", "type": "new", "key": "jrwest:kosei", "company": "JR西日本", "line": "湖西線", "status": "遅延", "transfer": false, "detail": "大雨"}
+{"ts": "2026-08-28T06:00:33.875098+09:00", "type": "new", "key": "jrwest:kusatsu", "company": "JR西日本", "line": "草津線", "status": "遅延", "transfer": false, "detail": "大雨"}
+{"ts": "2026-08-28T06:00:33.875098+09:00", "type": "new", "key": "jrwest:nara", "company": "JR西日本", "line": "奈良線", "status": "遅延", "transfer": false, "detail": "大雨"}
+{"ts": "2026-08-28T06:00:33.875098+09:00", "type": "new", "key": "jrwest:sagano", "company": "JR西日本", "line": "嵯峨野線", "status": "運転見合わせ", "transfer": true, "detail": "大雨"}
+{"ts": "2026-08-28T06:00:33.875098+09:00", "type": "new", "key": "jrwest:sanin1", "company": "JR西日本", "line": "山陰線(園部-福知山)", "status": "運転見合わせ", "transfer": false, "detail": "大雨"}
