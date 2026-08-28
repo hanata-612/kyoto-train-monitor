@@ -1,37 +1,5 @@
 {
  "active": {
-  "jrwest:hokurikubiwako": {
-   "cause": "大雨",
-   "company": "JR西日本",
-   "hint": "山科駅・京都駅",
-   "line": "北陸線・琵琶湖線",
-   "status": "遅延",
-   "transfer": false
-  },
-  "jrwest:kosei": {
-   "cause": "大雨",
-   "company": "JR西日本",
-   "hint": "山科駅・京都駅",
-   "line": "湖西線",
-   "status": "遅延",
-   "transfer": false
-  },
-  "jrwest:kyoto": {
-   "cause": "大雨",
-   "company": "JR西日本",
-   "hint": "京都駅",
-   "line": "JR京都線",
-   "status": "遅延",
-   "transfer": true
-  },
-  "jrwest:sagano": {
-   "cause": "大雨",
-   "company": "JR西日本",
-   "hint": "嵯峨嵐山・二条・円町・太秦",
-   "line": "嵯峨野線",
-   "status": "遅延",
-   "transfer": true
-  },
   "jrwest:sanin1": {
    "cause": "大雨",
    "company": "JR西日本",
@@ -41,7 +9,7 @@
    "transfer": false
   }
  },
- "checked_at": "2026-08-28T14:19:30.872362+09:00",
+ "checked_at": "2026-08-29T02:29:15.745623+09:00",
  "failure_alerted": {
   "hankyu": false,
   "jrwest": false,
