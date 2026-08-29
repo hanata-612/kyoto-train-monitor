@@ -1,7 +1,7 @@
 {
  "active": {
   "jrwest:sanin1": {
-   "cause": "倒竹",
+   "cause": "信号トラブル",
    "company": "JR西日本",
    "hint": "なし(市外中心・京都市内への影響は限定的)",
    "line": "山陰線(園部-福知山)",
@@ -9,7 +9,7 @@
    "transfer": false
   }
  },
- "checked_at": "2026-08-29T16:49:36.262859+09:00",
+ "checked_at": "2026-08-29T22:23:47.454518+09:00",
  "failure_alerted": {
   "hankyu": false,
   "jrwest": false,
