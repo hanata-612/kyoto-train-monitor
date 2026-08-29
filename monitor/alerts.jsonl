@@ -302,3 +302,4 @@
 {"ts": "2026-08-29T02:29:15.745623+09:00", "type": "recover", "key": "jrwest:kosei", "company": "JR西日本", "line": "湖西線", "status": "遅延", "transfer": false, "detail": "大雨"}
 {"ts": "2026-08-29T02:29:15.745623+09:00", "type": "recover", "key": "jrwest:kyoto", "company": "JR西日本", "line": "JR京都線", "status": "遅延", "transfer": true, "detail": "大雨"}
 {"ts": "2026-08-29T02:29:15.745623+09:00", "type": "recover", "key": "jrwest:sagano", "company": "JR西日本", "line": "嵯峨野線", "status": "遅延", "transfer": true, "detail": "大雨"}
+{"ts": "2026-08-29T10:06:35.620642+09:00", "type": "recover", "key": "jrwest:sanin1", "company": "JR西日本", "line": "山陰線(園部-福知山)", "status": "一部列車遅延", "transfer": false, "detail": "大雨"}
