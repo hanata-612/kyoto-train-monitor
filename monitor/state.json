@@ -1,23 +1,6 @@
 {
- "active": {
-  "jrwest:kusatsu": {
-   "cause": "線路トラブル",
-   "company": "JR西日本",
-   "hint": "なし(市外中心・京都市内への影響は限定的)",
-   "line": "草津線",
-   "status": "運転見合わせ",
-   "transfer": false
-  },
-  "jrwest:sanin1": {
-   "cause": "車両の確認",
-   "company": "JR西日本",
-   "hint": "なし(市外中心・京都市内への影響は限定的)",
-   "line": "山陰線(園部-福知山)",
-   "status": "一部列車遅延",
-   "transfer": false
-  }
- },
- "checked_at": "2026-08-30T14:28:43.010054+09:00",
+ "active": {},
+ "checked_at": "2026-08-30T19:36:41.471357+09:00",
  "failure_alerted": {
   "hankyu": false,
   "jrwest": false,
