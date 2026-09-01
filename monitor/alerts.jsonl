@@ -310,3 +310,4 @@
 {"ts": "2026-08-30T19:36:41.471357+09:00", "type": "recover", "key": "jrwest:kusatsu", "company": "JR西日本", "line": "草津線", "status": "運転見合わせ", "transfer": false, "detail": "線路トラブル"}
 {"ts": "2026-08-30T19:36:41.471357+09:00", "type": "recover", "key": "jrwest:sanin1", "company": "JR西日本", "line": "山陰線(園部-福知山)", "status": "一部列車遅延", "transfer": false, "detail": "車両の確認"}
 {"ts": "2026-09-02T06:05:22.295251+09:00", "type": "new", "key": "jrwest:sanin1", "company": "JR西日本", "line": "山陰線(園部-福知山)", "status": "一部列車遅延", "transfer": false, "detail": "動物と接触"}
+{"ts": "2026-09-02T08:15:27.590891+09:00", "type": "recover", "key": "jrwest:sanin1", "company": "JR西日本", "line": "山陰線(園部-福知山)", "status": "一部列車遅延", "transfer": false, "detail": "動物と接触"}
