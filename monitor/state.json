@@ -1,6 +1,15 @@
 {
- "active": {},
- "checked_at": "2026-09-06T08:17:47.701801+09:00",
+ "active": {
+  "jrwest:sanin1": {
+   "cause": "車両の確認",
+   "company": "JR西日本",
+   "hint": "なし(市外中心・京都市内への影響は限定的)",
+   "line": "山陰線(園部-福知山)",
+   "status": "一部列車遅延",
+   "transfer": false
+  }
+ },
+ "checked_at": "2026-09-06T10:03:38.271296+09:00",
  "failure_alerted": {
   "hankyu": false,
   "jrwest": false,
