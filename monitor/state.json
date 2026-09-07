@@ -1,15 +1,6 @@
 {
- "active": {
-  "jrwest:nara": {
-   "cause": "踏切の確認",
-   "company": "JR西日本",
-   "hint": "東福寺・稲荷・桃山",
-   "line": "奈良線",
-   "status": "遅延",
-   "transfer": false
-  }
- },
- "checked_at": "2026-09-07T18:39:46.995487+09:00",
+ "active": {},
+ "checked_at": "2026-09-08T00:14:12.252125+09:00",
  "failure_alerted": {
   "hankyu": false,
   "jrwest": false,
