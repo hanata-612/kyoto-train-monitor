@@ -1,15 +1,15 @@
 {
  "active": {
-  "jrwest:sanin1": {
-   "cause": "人と接触",
+  "jrwest:nara": {
+   "cause": "踏切の確認",
    "company": "JR西日本",
-   "hint": "なし(市外中心・京都市内への影響は限定的)",
-   "line": "山陰線(園部-福知山)",
-   "status": "運転見合わせ",
+   "hint": "東福寺・稲荷・桃山",
+   "line": "奈良線",
+   "status": "遅延",
    "transfer": false
   }
  },
- "checked_at": "2026-09-07T13:32:27.873779+09:00",
+ "checked_at": "2026-09-07T18:39:46.995487+09:00",
  "failure_alerted": {
   "hankyu": false,
   "jrwest": false,
