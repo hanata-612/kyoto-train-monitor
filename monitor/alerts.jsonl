@@ -340,3 +340,6 @@
 {"ts": "2026-09-08T00:14:12.252125+09:00", "type": "recover", "key": "jrwest:nara", "company": "JR西日本", "line": "奈良線", "status": "遅延", "transfer": false, "detail": "踏切の確認"}
 {"ts": "2026-09-09T05:05:26.468015+09:00", "type": "new", "key": "jrwest:kosei", "company": "JR西日本", "line": "湖西線", "status": "終日運転取り止め", "transfer": false, "detail": "強風"}
 {"ts": "2026-09-09T07:35:11.752870+09:00", "type": "recover", "key": "jrwest:kosei", "company": "JR西日本", "line": "湖西線", "status": "終日運転取り止め", "transfer": false, "detail": "強風"}
+{"ts": "2026-09-09T14:10:04.373287+09:00", "type": "new", "key": "jrwest:hokurikubiwako", "company": "JR西日本", "line": "北陸線・琵琶湖線", "status": "遅延", "transfer": false, "detail": "線路に障害物"}
+{"ts": "2026-09-09T14:10:04.373287+09:00", "type": "new", "key": "jrwest:kosei", "company": "JR西日本", "line": "湖西線", "status": "終日運転取り止め", "transfer": false, "detail": "強風"}
+{"ts": "2026-09-09T14:10:04.373287+09:00", "type": "new", "key": "jrwest:kyoto", "company": "JR西日本", "line": "JR京都線", "status": "遅延", "transfer": false, "detail": "線路に障害物"}
