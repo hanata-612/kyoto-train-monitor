@@ -1,15 +1,6 @@
 {
- "active": {
-  "jrwest:kosei": {
-   "cause": "強風",
-   "company": "JR西日本",
-   "hint": "山科駅・京都駅",
-   "line": "湖西線",
-   "status": "終日運転取り止め",
-   "transfer": false
-  }
- },
- "checked_at": "2026-09-09T22:57:02.502235+09:00",
+ "active": {},
+ "checked_at": "2026-09-10T02:36:17.540110+09:00",
  "failure_alerted": {
   "hankyu": false,
   "jrwest": false,
