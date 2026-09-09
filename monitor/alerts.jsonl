@@ -343,3 +343,5 @@
 {"ts": "2026-09-09T14:10:04.373287+09:00", "type": "new", "key": "jrwest:hokurikubiwako", "company": "JR西日本", "line": "北陸線・琵琶湖線", "status": "遅延", "transfer": false, "detail": "線路に障害物"}
 {"ts": "2026-09-09T14:10:04.373287+09:00", "type": "new", "key": "jrwest:kosei", "company": "JR西日本", "line": "湖西線", "status": "終日運転取り止め", "transfer": false, "detail": "強風"}
 {"ts": "2026-09-09T14:10:04.373287+09:00", "type": "new", "key": "jrwest:kyoto", "company": "JR西日本", "line": "JR京都線", "status": "遅延", "transfer": false, "detail": "線路に障害物"}
+{"ts": "2026-09-09T22:57:02.502235+09:00", "type": "recover", "key": "jrwest:hokurikubiwako", "company": "JR西日本", "line": "北陸線・琵琶湖線", "status": "遅延", "transfer": false, "detail": "線路に障害物"}
+{"ts": "2026-09-09T22:57:02.502235+09:00", "type": "recover", "key": "jrwest:kyoto", "company": "JR西日本", "line": "JR京都線", "status": "遅延", "transfer": false, "detail": "線路に障害物"}
