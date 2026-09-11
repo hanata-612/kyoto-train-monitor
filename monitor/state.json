@@ -1,15 +1,6 @@
 {
- "active": {
-  "jrwest:nara": {
-   "cause": "倒竹",
-   "company": "JR西日本",
-   "hint": "東福寺・稲荷・桃山",
-   "line": "奈良線",
-   "status": "運転見合わせ",
-   "transfer": true
-  }
- },
- "checked_at": "2026-09-11T15:36:04.597693+09:00",
+ "active": {},
+ "checked_at": "2026-09-11T20:46:15.676540+09:00",
  "failure_alerted": {
   "hankyu": false,
   "jrwest": false,
