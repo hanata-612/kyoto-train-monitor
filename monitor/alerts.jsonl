@@ -350,3 +350,4 @@
 {"ts": "2026-09-11T20:46:15.676540+09:00", "type": "recover", "key": "jrwest:nara", "company": "JR西日本", "line": "奈良線", "status": "運転見合わせ", "transfer": true, "detail": "倒竹"}
 {"ts": "2026-09-13T23:26:20.857111+09:00", "type": "new", "key": "jrwest:kyoto", "company": "JR西日本", "line": "JR京都線", "status": "遅延", "transfer": false, "detail": "動物と接触"}
 {"ts": "2026-09-14T02:31:32.776270+09:00", "type": "recover", "key": "jrwest:kyoto", "company": "JR西日本", "line": "JR京都線", "status": "遅延", "transfer": false, "detail": "動物と接触"}
+{"ts": "2026-09-14T16:02:23.366087+09:00", "type": "new", "key": "jrwest:kusatsu", "company": "JR西日本", "line": "草津線", "status": "運転見合わせ", "transfer": false, "detail": "大雨"}
