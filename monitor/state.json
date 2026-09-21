@@ -5,11 +5,11 @@
    "company": "JR西日本",
    "hint": "山科駅・京都駅",
    "line": "湖西線",
-   "status": "遅延",
+   "status": "終日運転取り止め",
    "transfer": false
   }
  },
- "checked_at": "2026-09-21T10:35:44.623060+09:00",
+ "checked_at": "2026-09-21T16:05:36.426452+09:00",
  "failure_alerted": {
   "hankyu": false,
   "jrwest": false,
