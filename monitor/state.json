@@ -1,15 +1,15 @@
 {
  "active": {
-  "jrwest:kyoto": {
-   "cause": "踏切内人立ち往生",
+  "jrwest:nara": {
+   "cause": "踏切の確認",
    "company": "JR西日本",
-   "hint": "京都駅",
-   "line": "JR京都線",
+   "hint": "東福寺・稲荷・桃山",
+   "line": "奈良線",
    "status": "遅延",
    "transfer": false
   }
  },
- "checked_at": "2026-09-24T06:44:44.151368+09:00",
+ "checked_at": "2026-09-24T08:59:35.606902+09:00",
  "failure_alerted": {
   "hankyu": false,
   "jrwest": false,

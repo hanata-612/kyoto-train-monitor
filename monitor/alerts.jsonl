@@ -390,3 +390,5 @@
 {"ts": "2026-09-24T03:31:21.710281+09:00", "type": "recover", "key": "jrwest:nara", "company": "JR西日本", "line": "奈良線", "status": "遅延", "transfer": false, "detail": "動物と接触"}
 {"ts": "2026-09-24T03:31:21.710281+09:00", "type": "recover", "key": "jrwest:yamatoji", "company": "JR西日本", "line": "大和路線", "status": "遅延", "transfer": false, "detail": "動物と接触"}
 {"ts": "2026-09-24T06:44:44.151368+09:00", "type": "new", "key": "jrwest:kyoto", "company": "JR西日本", "line": "JR京都線", "status": "遅延", "transfer": false, "detail": "踏切内人立ち往生"}
+{"ts": "2026-09-24T08:59:35.606902+09:00", "type": "new", "key": "jrwest:nara", "company": "JR西日本", "line": "奈良線", "status": "遅延", "transfer": false, "detail": "踏切の確認"}
+{"ts": "2026-09-24T08:59:35.606902+09:00", "type": "recover", "key": "jrwest:kyoto", "company": "JR西日本", "line": "JR京都線", "status": "遅延", "transfer": false, "detail": "踏切内人立ち往生"}
