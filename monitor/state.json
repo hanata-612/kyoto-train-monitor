@@ -1,6 +1,23 @@
 {
- "active": {},
- "checked_at": "2026-09-23T18:48:26.827975+09:00",
+ "active": {
+  "jrwest:nara": {
+   "cause": "動物と接触",
+   "company": "JR西日本",
+   "hint": "東福寺・稲荷・桃山",
+   "line": "奈良線",
+   "status": "遅延",
+   "transfer": false
+  },
+  "jrwest:yamatoji": {
+   "cause": "動物と接触",
+   "company": "JR西日本",
+   "hint": "なし(市外中心・京都市内への影響は限定的)",
+   "line": "大和路線",
+   "status": "遅延",
+   "transfer": false
+  }
+ },
+ "checked_at": "2026-09-23T23:29:03.058313+09:00",
  "failure_alerted": {
   "hankyu": false,
   "jrwest": false,
