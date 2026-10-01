@@ -1,23 +1,6 @@
 {
- "active": {
-  "jrwest:kyoto": {
-   "cause": "踏切の確認",
-   "company": "JR西日本",
-   "hint": "京都駅",
-   "line": "JR京都線",
-   "status": "遅延",
-   "transfer": false
-  },
-  "jrwest:sanin1": {
-   "cause": "保守工事",
-   "company": "JR西日本",
-   "hint": "なし(市外中心・京都市内への影響は限定的)",
-   "line": "山陰線(園部-福知山)",
-   "status": "運転取り止め",
-   "transfer": false
-  }
- },
- "checked_at": "2026-10-01T11:04:16.028204+09:00",
+ "active": {},
+ "checked_at": "2026-10-01T17:47:52.909994+09:00",
  "failure_alerted": {
   "hankyu": false,
   "jrwest": false,
