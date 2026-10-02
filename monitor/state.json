@@ -6,7 +6,7 @@
    "hint": "山科駅・京都駅",
    "line": "北陸線・琵琶湖線",
    "status": "遅延",
-   "transfer": false
+   "transfer": true
   },
   "jrwest:kosei": {
    "cause": "お客様と接触",
@@ -22,7 +22,15 @@
    "hint": "京都駅",
    "line": "JR京都線",
    "status": "遅延",
-   "transfer": true
+   "transfer": false
+  },
+  "jrwest:sagano": {
+   "cause": "線路内人立ち入り",
+   "company": "JR西日本",
+   "hint": "嵯峨嵐山・二条・円町・太秦",
+   "line": "嵯峨野線",
+   "status": "遅延",
+   "transfer": false
   },
   "jrwest:sanin1": {
    "cause": "保守工事",
@@ -33,7 +41,7 @@
    "transfer": false
   }
  },
- "checked_at": "2026-10-02T09:09:41.100152+09:00",
+ "checked_at": "2026-10-02T14:32:37.877668+09:00",
  "failure_alerted": {
   "hankyu": false,
   "jrwest": false,
