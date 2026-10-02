@@ -7,25 +7,9 @@
    "line": "北陸線・琵琶湖線",
    "status": "遅延",
    "transfer": false
-  },
-  "jrwest:kosei": {
-   "cause": "お客様と接触",
-   "company": "JR西日本",
-   "hint": "山科駅・京都駅",
-   "line": "湖西線",
-   "status": "遅延",
-   "transfer": false
-  },
-  "jrwest:kyoto": {
-   "cause": "お客様と接触",
-   "company": "JR西日本",
-   "hint": "京都駅",
-   "line": "JR京都線",
-   "status": "遅延",
-   "transfer": false
   }
  },
- "checked_at": "2026-10-02T20:19:00.781230+09:00",
+ "checked_at": "2026-10-03T01:41:57.585755+09:00",
  "failure_alerted": {
   "hankyu": false,
   "jrwest": false,
