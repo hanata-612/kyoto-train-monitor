@@ -405,3 +405,6 @@
 {"ts": "2026-10-01T17:47:52.909994+09:00", "type": "recover", "key": "jrwest:kyoto", "company": "JR西日本", "line": "JR京都線", "status": "遅延", "transfer": false, "detail": "踏切の確認"}
 {"ts": "2026-10-01T17:47:52.909994+09:00", "type": "recover", "key": "jrwest:sanin1", "company": "JR西日本", "line": "山陰線(園部-福知山)", "status": "運転取り止め", "transfer": false, "detail": "保守工事"}
 {"ts": "2026-10-02T05:33:53.054136+09:00", "type": "new", "key": "jrwest:sanin1", "company": "JR西日本", "line": "山陰線(園部-福知山)", "status": "一部列車運休", "transfer": false, "detail": "保守工事"}
+{"ts": "2026-10-02T09:09:41.100152+09:00", "type": "new", "key": "jrwest:hokurikubiwako", "company": "JR西日本", "line": "北陸線・琵琶湖線", "status": "遅延", "transfer": false, "detail": "お客様と接触"}
+{"ts": "2026-10-02T09:09:41.100152+09:00", "type": "new", "key": "jrwest:kosei", "company": "JR西日本", "line": "湖西線", "status": "遅延", "transfer": false, "detail": "お客様と接触"}
+{"ts": "2026-10-02T09:09:41.100152+09:00", "type": "new", "key": "jrwest:kyoto", "company": "JR西日本", "line": "JR京都線", "status": "遅延", "transfer": true, "detail": "お客様と接触"}
