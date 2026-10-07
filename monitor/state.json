@@ -1,15 +1,6 @@
 {
- "active": {
-  "jrwest:kosei": {
-   "cause": "動物と接触",
-   "company": "JR西日本",
-   "hint": "山科駅・京都駅",
-   "line": "湖西線",
-   "status": "運転見合わせ",
-   "transfer": false
-  }
- },
- "checked_at": "2026-10-07T22:13:16.770853+09:00",
+ "active": {},
+ "checked_at": "2026-10-08T04:22:20.497730+09:00",
  "failure_alerted": {
   "hankyu": false,
   "jrwest": false,
