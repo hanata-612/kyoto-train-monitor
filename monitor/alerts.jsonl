@@ -436,3 +436,5 @@
 {"ts": "2026-10-07T22:13:16.770853+09:00", "type": "new", "key": "jrwest:kosei", "company": "JR西日本", "line": "湖西線", "status": "運転見合わせ", "transfer": false, "detail": "動物と接触"}
 {"ts": "2026-10-08T04:22:20.497730+09:00", "type": "recover", "key": "jrwest:kosei", "company": "JR西日本", "line": "湖西線", "status": "運転見合わせ", "transfer": false, "detail": "動物と接触"}
 {"ts": "2026-10-09T11:04:05.047197+09:00", "type": "new", "key": "jrwest:yamatoji", "company": "JR西日本", "line": "大和路線", "status": "遅延", "transfer": false, "detail": "人と接触"}
+{"ts": "2026-10-09T17:55:24.157803+09:00", "type": "new", "key": "jrwest:nara", "company": "JR西日本", "line": "奈良線", "status": "遅延", "transfer": true, "detail": "信号トラブル"}
+{"ts": "2026-10-09T17:55:24.157803+09:00", "type": "recover", "key": "jrwest:yamatoji", "company": "JR西日本", "line": "大和路線", "status": "遅延", "transfer": false, "detail": "人と接触"}
