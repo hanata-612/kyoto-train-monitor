@@ -1,6 +1,15 @@
 {
- "active": {},
- "checked_at": "2026-10-16T08:54:05.899565+09:00",
+ "active": {
+  "jrwest:kosei": {
+   "cause": "線路内人立ち入り",
+   "company": "JR西日本",
+   "hint": "山科駅・京都駅",
+   "line": "湖西線",
+   "status": "遅延",
+   "transfer": true
+  }
+ },
+ "checked_at": "2026-10-16T11:47:52.518680+09:00",
  "failure_alerted": {
   "hankyu": false,
   "jrwest": false,
