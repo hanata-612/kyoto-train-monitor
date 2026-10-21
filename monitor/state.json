@@ -1,17 +1,26 @@
 {
- "active": {},
- "checked_at": "2026-10-22T02:29:47.659827+09:00",
+ "active": {
+  "jrwest:sanin1": {
+   "cause": "保守工事",
+   "company": "JR西日本",
+   "hint": "なし(市外中心・京都市内への影響は限定的)",
+   "line": "山陰線(園部-福知山)",
+   "status": "一部列車運休",
+   "transfer": false
+  }
+ },
+ "checked_at": "2026-10-22T05:50:11.233945+09:00",
  "failure_alerted": {
   "hankyu": false,
   "jrwest": false,
-  "keihan": false,
+  "keihan": true,
   "kintetsu": false,
   "kyotosubway": false
  },
  "failures": {
-  "hankyu": 0,
+  "hankyu": 1,
   "jrwest": 0,
-  "keihan": 2,
+  "keihan": 3,
   "kintetsu": 0,
   "kyotosubway": 0
  }
