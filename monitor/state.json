@@ -9,7 +9,7 @@
    "transfer": false
   }
  },
- "checked_at": "2026-10-22T05:50:11.233945+09:00",
+ "checked_at": "2026-10-22T08:52:09.272798+09:00",
  "failure_alerted": {
   "hankyu": false,
   "jrwest": false,
@@ -18,9 +18,9 @@
   "kyotosubway": false
  },
  "failures": {
-  "hankyu": 1,
+  "hankyu": 2,
   "jrwest": 0,
-  "keihan": 3,
+  "keihan": 4,
   "kintetsu": 0,
   "kyotosubway": 0
  }
