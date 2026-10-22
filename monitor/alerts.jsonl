@@ -502,3 +502,5 @@
 {"ts": "2026-10-22T22:58:40.358662+09:00", "type": "new", "key": "jrwest:nara", "company": "JR西日本", "line": "奈良線", "status": "遅延", "transfer": false, "detail": "動物と接触"}
 {"ts": "2026-10-22T22:58:40.358662+09:00", "type": "new", "key": "jrwest:yamatoji", "company": "JR西日本", "line": "大和路線", "status": "遅延", "transfer": false, "detail": "動物と接触"}
 {"ts": "2026-10-22T22:58:40.358662+09:00", "type": "recover", "key": "jrwest:sanin1", "company": "JR西日本", "line": "山陰線(園部-福知山)", "status": "一部列車運休・遅延", "transfer": false, "detail": "踏切内車立ち往生"}
+{"ts": "2026-10-23T03:25:16.959509+09:00", "type": "recover", "key": "jrwest:nara", "company": "JR西日本", "line": "奈良線", "status": "遅延", "transfer": false, "detail": "動物と接触"}
+{"ts": "2026-10-23T03:25:16.959509+09:00", "type": "recover", "key": "jrwest:yamatoji", "company": "JR西日本", "line": "大和路線", "status": "遅延", "transfer": false, "detail": "動物と接触"}
