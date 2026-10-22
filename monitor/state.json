@@ -1,26 +1,34 @@
 {
  "active": {
-  "jrwest:sanin1": {
-   "cause": "踏切内車立ち往生",
+  "jrwest:nara": {
+   "cause": "動物と接触",
+   "company": "JR西日本",
+   "hint": "東福寺・稲荷・桃山",
+   "line": "奈良線",
+   "status": "遅延",
+   "transfer": false
+  },
+  "jrwest:yamatoji": {
+   "cause": "動物と接触",
    "company": "JR西日本",
    "hint": "なし(市外中心・京都市内への影響は限定的)",
-   "line": "山陰線(園部-福知山)",
-   "status": "一部列車運休・遅延",
+   "line": "大和路線",
+   "status": "遅延",
    "transfer": false
   }
  },
- "checked_at": "2026-10-22T17:22:32.997763+09:00",
+ "checked_at": "2026-10-22T22:58:40.358662+09:00",
  "failure_alerted": {
   "hankyu": true,
   "jrwest": false,
-  "keihan": true,
+  "keihan": false,
   "kintetsu": false,
   "kyotosubway": false
  },
  "failures": {
-  "hankyu": 4,
+  "hankyu": 5,
   "jrwest": 0,
-  "keihan": 6,
+  "keihan": 0,
   "kintetsu": 0,
   "kyotosubway": 0
  }
