@@ -513,3 +513,4 @@
 {"ts": "2026-10-23T23:28:16.270155+09:00", "type": "recover", "key": "jrwest:hokurikubiwako", "company": "JR西日本", "line": "北陸線・琵琶湖線", "status": "遅延", "transfer": false, "detail": "車両の確認"}
 {"ts": "2026-10-23T23:28:16.270155+09:00", "type": "recover", "key": "jrwest:kyoto", "company": "JR西日本", "line": "JR京都線", "status": "遅延", "transfer": false, "detail": "車両の確認"}
 {"ts": "2026-10-23T23:28:16.270155+09:00", "type": "recover", "key": "jrwest:yamatoji", "company": "JR西日本", "line": "大和路線", "status": "遅延", "transfer": false, "detail": "線路内人立ち入り"}
+{"ts": "2026-10-24T08:59:38.439544+09:00", "type": "new", "key": "jrwest:kyoto", "company": "JR西日本", "line": "JR京都線", "status": "遅延", "transfer": false, "detail": "踏切の確認"}
