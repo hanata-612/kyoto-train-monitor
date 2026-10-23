@@ -5,11 +5,11 @@
    "company": "JR西日本",
    "hint": "なし(市外中心・京都市内への影響は限定的)",
    "line": "山陰線(園部-福知山)",
-   "status": "一部列車運休",
+   "status": "運転取り止め",
    "transfer": false
   }
  },
- "checked_at": "2026-10-23T09:12:41.228244+09:00",
+ "checked_at": "2026-10-23T13:57:46.147110+09:00",
  "failure_alerted": {
   "hankyu": true,
   "jrwest": false,
@@ -18,7 +18,7 @@
   "kyotosubway": false
  },
  "failures": {
-  "hankyu": 8,
+  "hankyu": 9,
   "jrwest": 0,
   "keihan": 0,
   "kintetsu": 0,
