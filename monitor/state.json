@@ -1,15 +1,23 @@
 {
  "active": {
-  "jrwest:sanin1": {
-   "cause": "踏切の確認",
+  "jrwest:nara": {
+   "cause": "お客様と接触",
+   "company": "JR西日本",
+   "hint": "東福寺・稲荷・桃山",
+   "line": "奈良線",
+   "status": "運転見合わせ",
+   "transfer": false
+  },
+  "jrwest:yamatoji": {
+   "cause": "お客様と接触",
    "company": "JR西日本",
    "hint": "なし(市外中心・京都市内への影響は限定的)",
-   "line": "山陰線(園部-福知山)",
-   "status": "一部列車遅延",
+   "line": "大和路線",
+   "status": "運転見合わせ",
    "transfer": false
   }
  },
- "checked_at": "2026-10-28T07:52:26.419261+09:00",
+ "checked_at": "2026-10-28T10:58:45.357976+09:00",
  "failure_alerted": {
   "hankyu": false,
   "jrwest": false,

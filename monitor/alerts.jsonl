@@ -522,3 +522,6 @@
 {"ts": "2026-10-27T11:09:02.369071+09:00", "type": "recover", "key": "jrwest:kyoto", "company": "JR西日本", "line": "JR京都線", "status": "遅延", "transfer": false, "detail": "車内の確認"}
 {"ts": "2026-10-27T16:46:02.142176+09:00", "type": "recover", "key": "jrwest:yamatoji", "company": "JR西日本", "line": "大和路線", "status": "遅延", "transfer": false, "detail": "踏切の確認"}
 {"ts": "2026-10-28T07:52:26.419261+09:00", "type": "new", "key": "jrwest:sanin1", "company": "JR西日本", "line": "山陰線(園部-福知山)", "status": "一部列車遅延", "transfer": false, "detail": "踏切の確認"}
+{"ts": "2026-10-28T10:58:45.357976+09:00", "type": "new", "key": "jrwest:nara", "company": "JR西日本", "line": "奈良線", "status": "運転見合わせ", "transfer": false, "detail": "お客様と接触"}
+{"ts": "2026-10-28T10:58:45.357976+09:00", "type": "new", "key": "jrwest:yamatoji", "company": "JR西日本", "line": "大和路線", "status": "運転見合わせ", "transfer": false, "detail": "お客様と接触"}
+{"ts": "2026-10-28T10:58:45.357976+09:00", "type": "recover", "key": "jrwest:sanin1", "company": "JR西日本", "line": "山陰線(園部-福知山)", "status": "一部列車遅延", "transfer": false, "detail": "踏切の確認"}
