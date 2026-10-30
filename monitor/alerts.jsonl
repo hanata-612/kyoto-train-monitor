@@ -532,3 +532,6 @@
 {"ts": "2026-10-30T23:32:58.479304+09:00", "type": "new", "key": "jrwest:hokurikubiwako", "company": "JR西日本", "line": "北陸線・琵琶湖線", "status": "遅延", "transfer": false, "detail": "踏切の確認"}
 {"ts": "2026-10-30T23:32:58.479304+09:00", "type": "new", "key": "jrwest:kyoto", "company": "JR西日本", "line": "JR京都線", "status": "遅延", "transfer": false, "detail": "踏切の確認"}
 {"ts": "2026-10-30T23:32:58.479304+09:00", "type": "new", "key": "jrwest:nara", "company": "JR西日本", "line": "奈良線", "status": "遅延", "transfer": false, "detail": "動物と接触"}
+{"ts": "2026-10-31T04:39:02.154566+09:00", "type": "recover", "key": "jrwest:hokurikubiwako", "company": "JR西日本", "line": "北陸線・琵琶湖線", "status": "遅延", "transfer": false, "detail": "踏切の確認"}
+{"ts": "2026-10-31T04:39:02.154566+09:00", "type": "recover", "key": "jrwest:kyoto", "company": "JR西日本", "line": "JR京都線", "status": "遅延", "transfer": false, "detail": "踏切の確認"}
+{"ts": "2026-10-31T04:39:02.154566+09:00", "type": "recover", "key": "jrwest:nara", "company": "JR西日本", "line": "奈良線", "status": "遅延", "transfer": false, "detail": "動物と接触"}
