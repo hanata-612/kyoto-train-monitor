@@ -1,6 +1,23 @@
 {
- "active": {},
- "checked_at": "2026-10-31T17:41:00.516848+09:00",
+ "active": {
+  "jrwest:sagano": {
+   "cause": "動物と接触",
+   "company": "JR西日本",
+   "hint": "嵯峨嵐山・二条・円町・太秦",
+   "line": "嵯峨野線",
+   "status": "遅延",
+   "transfer": false
+  },
+  "jrwest:sanin1": {
+   "cause": "接続待ち合わせ",
+   "company": "JR西日本",
+   "hint": "なし(市外中心・京都市内への影響は限定的)",
+   "line": "山陰線(園部-福知山)",
+   "status": "一部列車遅延",
+   "transfer": false
+  }
+ },
+ "checked_at": "2026-10-31T23:48:03.275376+09:00",
  "failure_alerted": {
   "hankyu": false,
   "jrwest": false,
