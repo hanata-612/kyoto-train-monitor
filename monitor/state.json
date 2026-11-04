@@ -1,6 +1,15 @@
 {
- "active": {},
- "checked_at": "2026-11-04T17:04:40.032528+09:00",
+ "active": {
+  "jrwest:yamatoji": {
+   "cause": "沿線の確認",
+   "company": "JR西日本",
+   "hint": "なし(市外中心・京都市内への影響は限定的)",
+   "line": "大和路線",
+   "status": "遅延",
+   "transfer": false
+  }
+ },
+ "checked_at": "2026-11-05T01:12:27.226230+09:00",
  "failure_alerted": {
   "hankyu": false,
   "jrwest": false,
