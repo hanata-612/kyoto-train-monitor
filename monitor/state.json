@@ -1,23 +1,15 @@
 {
  "active": {
-  "jrwest:hokurikubiwako": {
-   "cause": "踏切の確認",
+  "jrwest:yamatoji": {
+   "cause": "沿線の確認",
    "company": "JR西日本",
-   "hint": "山科駅・京都駅",
-   "line": "北陸線・琵琶湖線",
-   "status": "遅延",
-   "transfer": false
-  },
-  "jrwest:kyoto": {
-   "cause": "踏切の確認",
-   "company": "JR西日本",
-   "hint": "京都駅",
-   "line": "JR京都線",
+   "hint": "なし(市外中心・京都市内への影響は限定的)",
+   "line": "大和路線",
    "status": "遅延",
    "transfer": false
   }
  },
- "checked_at": "2026-11-08T17:48:56.366905+09:00",
+ "checked_at": "2026-11-09T00:37:04.457003+09:00",
  "failure_alerted": {
   "hankyu": false,
   "jrwest": false,
