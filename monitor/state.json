@@ -1,31 +1,6 @@
 {
- "active": {
-  "jrwest:hokurikubiwako": {
-   "cause": "橋桁の確認",
-   "company": "JR西日本",
-   "hint": "山科駅・京都駅",
-   "line": "北陸線・琵琶湖線",
-   "status": "遅延",
-   "transfer": false
-  },
-  "jrwest:kosei": {
-   "cause": "橋桁の確認",
-   "company": "JR西日本",
-   "hint": "山科駅・京都駅",
-   "line": "湖西線",
-   "status": "遅延",
-   "transfer": false
-  },
-  "jrwest:kyoto": {
-   "cause": "橋桁の確認",
-   "company": "JR西日本",
-   "hint": "京都駅",
-   "line": "JR京都線",
-   "status": "遅延",
-   "transfer": false
-  }
- },
- "checked_at": "2026-11-16T20:32:26.138779+09:00",
+ "active": {},
+ "checked_at": "2026-11-17T06:12:50.227798+09:00",
  "failure_alerted": {
   "hankyu": false,
   "jrwest": false,
