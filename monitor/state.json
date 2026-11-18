@@ -1,31 +1,6 @@
 {
- "active": {
-  "jrwest:hokurikubiwako": {
-   "cause": "濃霧",
-   "company": "JR西日本",
-   "hint": "山科駅・京都駅",
-   "line": "北陸線・琵琶湖線",
-   "status": "遅延",
-   "transfer": false
-  },
-  "jrwest:kusatsu": {
-   "cause": "保守工事",
-   "company": "JR西日本",
-   "hint": "なし(市外中心・京都市内への影響は限定的)",
-   "line": "草津線",
-   "status": "運転取り止め",
-   "transfer": false
-  },
-  "jrwest:kyoto": {
-   "cause": "濃霧",
-   "company": "JR西日本",
-   "hint": "京都駅",
-   "line": "JR京都線",
-   "status": "遅延",
-   "transfer": false
-  }
- },
- "checked_at": "2026-11-18T11:59:47.306743+09:00",
+ "active": {},
+ "checked_at": "2026-11-18T20:26:57.303500+09:00",
  "failure_alerted": {
   "hankyu": false,
   "jrwest": false,
