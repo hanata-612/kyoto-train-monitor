@@ -1,6 +1,15 @@
 {
- "active": {},
- "checked_at": "2026-11-19T04:28:51.035813+09:00",
+ "active": {
+  "jrwest:kusatsu": {
+   "cause": "保守工事",
+   "company": "JR西日本",
+   "hint": "なし(市外中心・京都市内への影響は限定的)",
+   "line": "草津線",
+   "status": "運転取り止め",
+   "transfer": false
+  }
+ },
+ "checked_at": "2026-11-19T10:22:34.531323+09:00",
  "failure_alerted": {
   "hankyu": false,
   "jrwest": false,
