@@ -590,3 +590,6 @@
 {"ts": "2026-11-18T20:26:57.303500+09:00", "type": "recover", "key": "jrwest:kyoto", "company": "JR西日本", "line": "JR京都線", "status": "遅延", "transfer": false, "detail": "濃霧"}
 {"ts": "2026-11-19T10:22:34.531323+09:00", "type": "new", "key": "jrwest:kusatsu", "company": "JR西日本", "line": "草津線", "status": "運転取り止め", "transfer": false, "detail": "保守工事"}
 {"ts": "2026-11-19T18:03:13.955209+09:00", "type": "recover", "key": "jrwest:kusatsu", "company": "JR西日本", "line": "草津線", "status": "運転取り止め", "transfer": false, "detail": "保守工事"}
+{"ts": "2026-11-20T16:44:53.240778+09:00", "type": "new", "key": "jrwest:hokurikubiwako", "company": "JR西日本", "line": "北陸線・琵琶湖線", "status": "遅延", "transfer": false, "detail": "お客様と接触"}
+{"ts": "2026-11-20T16:44:53.240778+09:00", "type": "new", "key": "jrwest:kosei", "company": "JR西日本", "line": "湖西線", "status": "遅延", "transfer": false, "detail": "お客様と接触"}
+{"ts": "2026-11-20T16:44:53.240778+09:00", "type": "new", "key": "jrwest:kyoto", "company": "JR西日本", "line": "JR京都線", "status": "遅延", "transfer": true, "detail": "お客様と接触"}
