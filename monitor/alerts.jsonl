@@ -599,3 +599,4 @@
 {"ts": "2026-11-22T12:20:08.936531+09:00", "type": "new", "key": "jrwest:sanin1", "company": "JR西日本", "line": "山陰線(園部-福知山)", "status": "一部列車遅延", "transfer": false, "detail": "信号トラブル"}
 {"ts": "2026-11-22T20:46:16.712948+09:00", "type": "recover", "key": "jrwest:sanin1", "company": "JR西日本", "line": "山陰線(園部-福知山)", "status": "一部列車遅延", "transfer": false, "detail": "信号トラブル"}
 {"ts": "2026-11-24T20:39:57.877840+09:00", "type": "new", "key": "jrwest:kosei", "company": "JR西日本", "line": "湖西線", "status": "運転取り止め", "transfer": false, "detail": "強風"}
+{"ts": "2026-11-25T06:30:46.785585+09:00", "type": "recover", "key": "jrwest:kosei", "company": "JR西日本", "line": "湖西線", "status": "運転取り止め", "transfer": false, "detail": "強風"}
